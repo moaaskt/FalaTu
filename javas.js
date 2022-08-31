@@ -44,7 +44,7 @@ if(textArea.value !== ''){
     if(!synth.isSpeaking){
         falarTexto(textArea.value);
     }
-    if(textArea.value.lenght > 80){
+    if(textArea.value.leng > 80){
         if(isSpeaking){
             synth.resume();
             isSpeaking = false;
@@ -57,11 +57,11 @@ if(textArea.value !== ''){
         setInterval(() => {
            if(!synth.speaking && !isSpeaking){
             isSpeaking = true;
-            falatuBtn.innerHTML = 'Converter texto em fala'
+            falatuBtn.innerHTML = 'Fala tu'
            }
         })
     }else {
-        falatuBtn.innerHTML = 'Converter para falar'
+        falatuBtn.innerHTML = 'Repetir fala'
     }
 }
 
