@@ -83,3 +83,12 @@ main{
     border: none;    
 
 }
+.footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    height: 1.5rem;
+    width: 100vw;
+    background-color: rgb(20, 18, 18);
+    color: rgb(234, 223, 223);
+}
