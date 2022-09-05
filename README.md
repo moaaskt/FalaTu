@@ -1,4 +1,8 @@
 #README
+<h1 align="center"><a href="https://im.ge/i/ORV1Wm"><img src="https://i.im.ge/2022/09/06/ORV1Wm.Captura-de-tela-2022-09-05-204656.png" alt="converter" ></a> </h1>
+
+
+
 
 <h1 align="center">Converte Texto em fala </h1>
 
@@ -21,7 +25,7 @@
 
 
 
-<a href="#tecnologia" area-hidden="true"><h2><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀Como Usar</g-emoji> </h1></a> 
+<a href="#tecnologia" area-hidden="true"><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀Como Usar</g-emoji> </h1></a> <h2>
 <p>
 Básicamente você escreve oque quiser(cuidado com as palavras) e logo em seguida clique em converter e pronto.
 Você tem opção de escolher o idioma também, caso prefira outra lingua.
@@ -35,7 +39,7 @@ Tecnologias </h2>
 
 
 
-
+<hr>
 <p>Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <ul dir="auto">
