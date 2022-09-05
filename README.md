@@ -35,7 +35,7 @@ Tecnologias </h2>
 
 
 
-<hr>
+
 <p>Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <ul dir="auto">
@@ -46,7 +46,7 @@ Tecnologias </h2>
 
 <br>
 <h2><g-emoji class="g-emoji" alias="bookmark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png">🔖</g-emoji>
-Autor </h2> <hr>
+Autor </h2> 
 <p> Feito por <a href="">Moacir Neto</a> </p>
 
 
