@@ -49,7 +49,7 @@ Tecnologias </h2>
 </ul></p>
 
 <br>
-<h2><g-emoji class="g-emoji" alias="bookmark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png">🔖</g-emoji>
+<h2 href="#autor"><g-emoji class="g-emoji" alias="bookmark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png">🔖</g-emoji>
 Autor </h2> 
 <p> Feito por <a href="">Moacir Neto</a> </p>
 
