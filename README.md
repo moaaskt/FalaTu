@@ -13,7 +13,7 @@
 
 
 <h2><g-emoji class="g-emoji" alias="page_facing_up" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c4.png">📄</g-emoji>SOBRE </h2>
-<hr>
+
 
 <p> Simples aplicativo que converte textos em voz. Você pode escolher o idioma que preferir </p>
 <br>
@@ -21,7 +21,7 @@
 
 
 
-<a href="#tecnologia" area-hidden="true"><h2><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀Como Usar</g-emoji> </h1></a> <hr>
+<a href="#tecnologia" area-hidden="true"><h2><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀Como Usar</g-emoji> </h1></a> 
 <p>
 Básicamente você escreve oque quiser(cuidado com as palavras) e logo em seguida clique em converter e pronto.
 Você tem opção de escolher o idioma também, caso prefira outra lingua.
