@@ -50,7 +50,7 @@ Tecnologias </h2>
 
 <br>
 <h2><g-emoji class="g-emoji" alias="bookmark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png">🔖</g-emoji>
-<a href="#sobre">Autor</a> </h2> 
+<a href="sobre">Autor</a> </h2> 
 <p> Feito por <a href="">Moacir Neto</a> </p>
 
 
