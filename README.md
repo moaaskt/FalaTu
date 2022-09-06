@@ -1,6 +1,6 @@
 #README
 <h1 align="center"><a href="https://im.ge/i/ORV1Wm"><img src="https://i.im.ge/2022/09/06/ORV1Wm.Captura-de-tela-2022-09-05-204656.png" alt="converter" ></a> </h1>
-
+<br>
 
 
 
@@ -8,8 +8,9 @@
 
 <p align="center">
 <a href="#sobre">Sobre</a>  | 
+<a href="#usar">Como usar</a>  | 
 <a href="#tecnologia">Tecnologias </a>  | 
-<a href="#sobre">Autor </a>
+<a href="#autor">Autor </a>
 </p>
 
 
@@ -25,7 +26,7 @@
 
 
 
-<a href="#tecnologia" area-hidden="true"><h2><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀Como Usar</g-emoji> </h1></a> 
+<h2 id="usar"><g-emoji class="g-emoji" alias="rocket" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f680.png">🚀Como Usar</g-emoji> </h2></a> 
 <p>
 Básicamente você escreve oque quiser(cuidado com as palavras) e logo em seguida clique em converter e pronto.
 Você tem opção de escolher o idioma também, caso prefira outra lingua.
@@ -34,7 +35,7 @@ Você tem opção de escolher o idioma também, caso prefira outra lingua.
 <br>
 
 
-<h2><g-emoji class="g-emoji" alias="computer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png">💻</g-emoji>
+<h2 id="tecnologia"><g-emoji class="g-emoji" alias="computer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png">💻</g-emoji>
 Tecnologias </h2>
 
 
@@ -49,8 +50,8 @@ Tecnologias </h2>
 </ul></p>
 
 <br>
-<h2><g-emoji class="g-emoji" alias="bookmark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png">🔖</g-emoji>
-<div id="sobre">autor</div> </h2> 
+<h2 id="autor"><g-emoji class="g-emoji" alias="bookmark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png">🔖</g-emoji>
+autor </h2> 
 <p> Feito por <a href="">Moacir Neto</a> </p>
 
 
