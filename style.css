@@ -10,6 +10,8 @@ body {
     background: linear-gradient(135deg, #74ebd5, #acb6e5);
 }
 
+
+
 main {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
@@ -38,7 +40,11 @@ main {
     color: #333;
     margin-bottom: 5px;
 }
-
+.logo {
+    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaçamento entre a logo e o título */
+}
 #text,
 #voice {
     width: 95%;
@@ -50,6 +56,10 @@ main {
     color: #333;
 }
 
+#text {
+    resize: vertical; /* Permite que a textarea seja redimensionada verticalmente */
+}
+
 .submit {
     background: linear-gradient(135deg, #00c897, #009e76);
     color: white;
@@ -59,12 +69,34 @@ main {
     border-radius: 10px;
     font-size: 1.5rem;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
-
+.dark-mode-button {
+    background-color: #333;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.conversion-message {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 200, 150, 0.9);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    z-index: 9999;
+}
 .submit:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #009e76, #00c897);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .footer {
@@ -73,11 +105,23 @@ main {
     bottom: 0;
     height: 3rem;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.9);
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 /* Responsivo */
@@ -101,12 +145,5 @@ main {
 
     .submit {
         font-size: 1.2rem;
-
-
-
     }
-
-
-
-
 }

@@ -6,35 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-     <img src="caminho/para/logo.png" alt="Logo do Projeto"
+    <link  rel= "icon"  type= "image/png"  sizes= "16x16"  href= "Assets/favicon.png" > 
+
     <title>Fala tu  * Converte Texto em fala </title>
 </head>
 
 <body>
 
     <main>
-        <p class="title">Fala tu</p>
+        <img class="logo" src="Assets/falatuimg.png" alt="Logo do Projeto">
         <div class="text-section">
             <p class="text-title">Cuidado com as palavras</p>
-            <textarea  placeholder="Digite aqui seu texto" name="" id="text"></textarea>
+            <textarea placeholder="Digite aqui seu texto" name="" id="text" rows="6"></textarea>
         </div>
         <div class="voice-section">
             <p class="voice-title">Selecione a voz</p>
             <select name="" id="voice">
-                <option value="Google BR Portugues">Google BR Portugues
-
-                </option>
+                <option value="Google BR Portugues">Google BR Portugues</option>
             </select>
         </div>
-        <button class="submit">Converter texto</button>
-    </main>
-    <footer class="footer">
-        <span>Feito por
-        Moacir Neto</span>
         
-        </footer>
-    <script src="javas.js"></script>
+        
+        <button class="submit" onclick="converterTexto()">Converter texto</button>
+       
+        
+    </main>
     
+    
+    <footer class="footer">
+        <div class="footer-content">
+           
+            <p>Todos os direitos reservados &copy; 2023</p>
+        </div>
+    </footer>
+    <script src="javas.js"></script>
 
 </body>
 
