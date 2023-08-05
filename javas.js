@@ -1,70 +1,53 @@
 const textArea = document.querySelector('#text');
 let listaVoz = document.querySelector('#voice');
-//voiceList
 let falatuBtn = document.querySelector('.submit');
-//speechbBtn
 let synth = speechSynthesis;
 let isSpeaking = true;
 
 function falatu() {
-  //voiceSpeech
-  
     for (let voice of synth.getVoices()) {
-        let option = document.createElement('option')
+        let option = document.createElement('option');
         option.text = voice.name;
         listaVoz.add(option);
-
     }
-
 }
 
 synth.addEventListener('voiceschanged', falatu);
 
-function falarTexto(text){
-//textTospeech
-
-
+function falarTexto(text) {
     let alternar = new SpeechSynthesisUtterance(text);
-    for(let voice of synth.getVoices()){
-        if(voice.name === listaVoz.value){
+    for (let voice of synth.getVoices()) {
+        if (voice.name === listaVoz.value) {
             alternar.voice = voice;
         }
     }
     speechSynthesis.speak(alternar);
-
-
 }
 
-
-//funcao do botao
-
-falatuBtn.addEventListener('click', (e) =>{
-e.preventDefault();
-if(textArea.value !== ''){
-    if(!synth.isSpeaking){
-        falarTexto(textArea.value);
-    }
-    if(textArea.value.leng > 80){
-        if(isSpeaking){
-            synth.resume();
-            isSpeaking = false;
-            falatuBtn.innerHTML = 'Pausar fala'
-        }else {
-            synth.pause();
-            isSpeaking = true;
-            falatuBtn.innerHTML = 'Continuar fala'
+falatuBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (textArea.value !== '') {
+        if (!synth.speaking) {
+            falarTexto(textArea.value);
         }
-        setInterval(() => {
-           if(!synth.speaking && !isSpeaking){
-            isSpeaking = true;
-            falatuBtn.innerHTML = 'Fala tu'
-           }
-        })
-    }else {
-        falatuBtn.innerHTML = 'Repetir fala'
+        if (textArea.value.length > 80) {
+            if (isSpeaking) {
+                synth.resume();
+                isSpeaking = false;
+                falatuBtn.innerHTML = 'Pausar fala';
+            } else {
+                synth.pause();
+                isSpeaking = true;
+                falatuBtn.innerHTML = 'Continuar fala';
+            }
+            setInterval(() => {
+                if (!synth.speaking && !isSpeaking) {
+                    isSpeaking = true;
+                    falatuBtn.innerHTML = 'Fala tu';
+                }
+            }, 100); // Especifica o intervalo em milissegundos (100 ms no exemplo)
+        } else {
+            falatuBtn.innerHTML = 'Repetir fala';
+        }
     }
-}
-
-
-})
-
+});
