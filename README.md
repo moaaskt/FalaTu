@@ -3,9 +3,6 @@
 
 
 
-<p align="center"><a href="https://imgbb.com/"><img src="https://i.ibb.co/zfWsHKt/ORV1-Wm-Captura-de-tela-2022-09-05-204656.png" alt="Falatu" height="400px"></a></p>
-
-
 
 
 
